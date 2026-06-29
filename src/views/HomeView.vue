@@ -17,7 +17,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import Sidebar from '@/components/Sidebar.vue'
+import Sidebar from '../components/SideBar.vue'
 
 const sidebarExpanded = ref(false)
 const toastMsg        = ref('')
